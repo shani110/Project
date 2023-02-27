@@ -1,0 +1,27 @@
+<br>
+<label for="searchNumber">Search number: </label>
+<input type="number" id="searchNumber" [(ngModel)]="searchNumber">
+<br>
+<br>
+
+<table>
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Discription</th>
+      <th>Name</th>
+      <th>Quantity</th>
+      <th>Price</th>
+
+     
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of filteredData()">
+      <td>{{ item.id }}</td>
+      <td>{{ item.Discription }}</td>
+      <td>{{ item.Amount }}</td>
+      <td>{{ item.Proposed_Quantity }}</td>
+      <td>{{ item.Price }}</td>
+  </tbody>
+</table>

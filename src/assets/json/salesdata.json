@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "Discription":"landing page for the directory.",
+        "Amount":2,
+        "Proposed_Quantity" :1,
+        "Price":100
+    },
+    {
+        "id":2,
+        "Discription":"landing page .",
+        "Amount":20,
+        "Proposed_Quantity" :1,
+        "Price":2000
+    },
+    {
+        "id":3,
+        "Discription":" the directory.",
+        "Amount":10,
+        "Proposed_Quantity" :2,
+        "Price":1000
+    }
+]
